@@ -1,17 +1,17 @@
 $(document).ready(function(){
-  $.ajax('/db_test/recipes.json', {
+  $.ajax('https://grecipeal.herokuapp.com/recipe', {
       method: "GET",
       contentType: "application/json"
     })
     .then(recipes => {
-      recipes.forEach(function(recipe) {
-        console.log(recipe)
-        var recipeName = recipe.recipe_name
-        var recipeId = recipe.recipe_id
-        var authorId = recipe.author_id
-        var author = recipe.author_name
-        var recipeRating = recipe.average_rating
-        var img = recipe.img
+      recipes.forEach(function(singleRecipe) {
+        console.log(singleRecipe)
+        var recipeName = singleRecipe.recipe
+        var recipeId = singleRecipe.recipe_id
+        var authorId = singleRecipe.author_id
+        var author = singleRecipe.author
+        var recipeRating = parseInt(singleRecipe.rating)
+        var img = singleRecipe.image
 
         var recipeName = '<a href="/recipes.html?recipeId='+recipeId+'"><h1>'+recipeName+'</h1></a>'
         var authorName = '<a href="/recipes.html?authorId='+authorId+'"><h1>'+author+'</h1></a>'

@@ -1,0 +1,39 @@
+
+.mainRecipeImageDiv {
+  width: 300px;
+  height: 300px;
+  overflow: hidden;
+  display: block;
+}
+
+.mainRecipeDiv {
+  width: 100vw;
+  border: 1px solid #000;
+}
+
+.mainRecipeDiv {
+  width: 100vw;
+  border: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.recipeComments {
+  border: 1px solid #000;
+}
+
+/*.recipeImgNameRating {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+}*/
+
+
+
+.recipeRating {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

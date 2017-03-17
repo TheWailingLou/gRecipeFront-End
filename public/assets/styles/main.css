@@ -32,9 +32,13 @@ body {
   justify-content: space-around;
 }
 
+main {
+  margin-top: 10vh;
+}
+
 .homeMain {
   /*background-color: #FF0000;*/
-  margin-top: 10vh;
+  /*margin-top: 10vh;*/
   display: flex;
   justify-content: center;
 }
@@ -68,6 +72,15 @@ body {
   display: block;
 
 }
+
+
+
+
+/*.recipeNameRating {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}*/
 
 .recipeInfoDiv {
   text-align: center;

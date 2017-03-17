@@ -13,8 +13,8 @@
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
     <link rel="stylesheet" href="/assets/styles/main.css">
-    <link rel="stylesheet" href="/assets/styles/singleRecipe.css">
-    <script type="text/javascript" src="/assets/scripts/singleRecipe.js" async defer></script>
+    <!-- <link rel="stylesheet" href="/assets/styles/singleRecipe.css"> -->
+    <script type="text/javascript" src="/assets/scripts/editRecipe.js" async defer></script>
   </head>
   <body>
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -38,40 +38,29 @@
 		</nav>
     <main>
       <div class="mainRecipeDiv">
-        <div class="mainRecipeImageDiv"><img src="" alt="" class="recipeImg"></div>
-        <h1 class="recipeName"></h1>
-        <div class="recipeRating"></div>
+        <h1>Recipe Name</h1>
+        <input type="text" class="recipeNameInput" value="">
         <h2 class="mainRecipeAuthorName"></h2>
-        <div class="ingredientsDiv"></div>
-        <div class="stepsDiv"></div>
+        <div>
+          <div class="ingredientsDiv">
+          </div>
+          <div class="btn-group editDeleteButtons" role="group" aria-label="...">
+            <button type="button" class="btn btn-default addIngredient">Add Ingredient</button>
+          </div>
+        </div>
+        <div>
+          <div class="stepsDiv"></div>
+          <div class="btn-group editDeleteButtons" role="group" aria-label="...">
+  					<button type="button" class="btn btn-default addStep">Add Step</button>
+  				</div>
+        </div>
+
         <div class="btn-group editDeleteButtons" role="group" aria-label="...">
-					<button type="button" class="btn btn-default editRecipe">Edit</button>
-					<button type="button" class="btn btn-default deleteRecipe">Delete</button>
+					<button type="button" class="btn btn-default submitRecipeChanges">Submit Changes</button>
 				</div>
       </div>
-      <div class="recipeComments">
-        <h2> comment goes here</h2>
-      </div>
-      <div class="createReview">
-        <h2>Write A Review</h2>
-        <div class="createRating">
-          <span class="glyphicon glyphicon-star-empty" star="1" aria-hidden="true"></span>
-          <span class="glyphicon glyphicon-star-empty" star="2" aria-hidden="true"></span>
-          <span class="glyphicon glyphicon-star-empty" star="3" aria-hidden="true"></span>
-          <span class="glyphicon glyphicon-star-empty" star="4" aria-hidden="true"></span>
-          <span class="glyphicon glyphicon-star-empty" star="5" aria-hidden="true"></span>
-        </div>
-        <div>
-          <input type="text" class="nameInput" placeholder="Your name here..">
-        </div>
-        <div>
-          <input type="text" class="emailInput" placeholder="Your email here..">
-        </div>
-        <textarea type="text" class="bodyInput" cols="100" rows="10"></textarea>
-				<div class="btn-group" role="group" aria-label="...">
-					<button type="button" class="btn btn-default submitComment">Submit Comment</button>
-				</div>
-      </div>
+
+
     </main>
   </body>
 </html>

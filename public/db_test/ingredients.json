@@ -1,10 +1,30 @@
 [
   {
     "id": 1,
-    "name":"sugar"
+    "name": "egg"
   },
   {
     "id": 2,
-    "name":"flour"
+    "name": "mayonnaise"
+  },
+  {
+    "id": 3,
+    "name": "garlic"
+  },
+  {
+    "id": 4,
+    "name": "salt"
+  },
+  {
+    "id": 5,
+    "name": "lettuce"
+  },
+  {
+    "id": 6,
+    "name": "tomato"
+  },
+  {
+    "id": 7,
+    "name": "avocado"
   }
 ]

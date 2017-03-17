@@ -1,26 +1,58 @@
 [
   {
-    "recipe_id": 1,
+    "id": 1,
+    "quantity": 7,
+    "unit": "whole",
     "ingredient_id": 1,
-    "quantity": 1,
-    "units": "cup(s)"
+    "recipe_id": 3
   },
   {
-    "recipe_id": 1,
+    "id": 2,
+    "quantity": 3,
+    "unit": "tbsp",
     "ingredient_id": 2,
-    "quantity": 0.5,
-    "units": "cup(s)"
+    "recipe_id": 3
   },
   {
-    "recipe_id": 2,
-    "ingredient_id": 1,
+    "id": 3,
     "quantity": 1,
-    "units": "cup(s)"
+    "unit": "tsp",
+    "ingredient_id": 3,
+    "recipe_id": 3
   },
   {
-    "recipe_id": 2,
-    "ingredient_id": 2,
-    "quantity": 0.5,
-    "units": "cup(s)"
+    "id": 4,
+    "quantity": 0.125,
+    "unit": "tsp",
+    "ingredient_id": 4,
+    "recipe_id": 3
+  },
+  {
+    "id": 5,
+    "quantity": 6,
+    "unit": "cup",
+    "ingredient_id": 5,
+    "recipe_id": 3
+  },
+  {
+    "id": 6,
+    "quantity": 2,
+    "unit": "whole",
+    "ingredient_id": 6,
+    "recipe_id": 3
+  },
+  {
+    "id": 7,
+    "quantity": 3,
+    "unit": "whole",
+    "ingredient_id": 7,
+    "recipe_id": 2
+  },
+  {
+    "id": 8,
+    "quantity": 1,
+    "unit": "whole",
+    "ingredient_id": 7,
+    "recipe_id": 4
   }
 ]
